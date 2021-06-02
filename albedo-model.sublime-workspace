@@ -15,6 +15,16 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "(base) Julian@Julians-MacBook albedo-model % \n(base) Julian@Julians-MacBook albedo-model % \n(base) Julian@Julians-MacBook albedo-model % \n(base) Julian@Julians-MacBook albedo-model % ",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix",
+				"name": "Login Shell",
+				"scratch": true
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -88,6 +98,9 @@
 	],
 	"file_history":
 	[
+		"/Applications/GRASS-7.0.app/Contents/MacOS/grass.sh",
+		"/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/albedo-model/.gitignore",
+		"/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/albedo-model/albedo-wd/.gitignore",
 		"/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/icemelt-cross/.gitignore",
 		"/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/icemelt-cross/run_all_cluster.sh",
 		"/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/icemelt-cross/run_albedo_cluster.sh",
@@ -212,10 +225,7 @@
 		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0/downupext.out",
 		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0-bfloor/168114.densityprofile",
 		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0-bfloor/168114.ablation.daily",
-		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0-bfloor/168113.densityprofile",
-		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0-bfloor/168113.ablation.daily",
-		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/icemelt-cross/icemelt_albedo_jmc_v03.f95",
-		"/D/old-output/20190412_TEST/logs/namelist.input"
+		"/C/Users/jucross/Documents/MDV-Lakes-Thesis/melt-model/postprocess-output/model-output/20190416_ALBEDO/albedo-offset0-bfloor/168113.densityprofile"
 	],
 	"find":
 	{
@@ -253,6 +263,96 @@
 			"sheets":
 			[
 			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								183,
+								183
+							]
+						],
+						"settings":
+						{
+							"__vi_external_disable": true,
+							"auto_complete": false,
+							"auto_complete_commit_on_tab": false,
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.clone_locations":
+							{
+							},
+							"bracket_highlighter.ignore": true,
+							"color_scheme": "Terminus.sublime-color-scheme",
+							"default_dir": "/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/albedo-model",
+							"draw_centered": false,
+							"draw_indent_guides": false,
+							"draw_unicode_white_space": false,
+							"draw_white_space": "none",
+							"gutter": false,
+							"highlight_line": false,
+							"is_widget": true,
+							"result_base_dir": "/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/albedo-model",
+							"result_file_regex": null,
+							"result_line_regex": null,
+							"scroll_past_end": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"terminus.highlight_counter": 21,
+							"terminus_view": true,
+							"terminus_view.args":
+							{
+								"auto_close": true,
+								"cancellable": false,
+								"cmd":
+								[
+									"/bin/zsh",
+									"-i",
+									"-l"
+								],
+								"config_name": "Login Shell",
+								"cwd": "/Users/Julian/Documents/!School/PSU GEOG MS/MDV-Lakes-Thesis/albedo-model",
+								"env":
+								{
+									"LANG": "en_US.UTF-8",
+									"TERM": "linux",
+									"TERMINUS_SUBLIME": "1",
+									"TERM_PROGRAM": "Terminus-Sublime"
+								},
+								"file_regex": null,
+								"line_regex": null,
+								"panel_name": null,
+								"tag": null,
+								"timeit": false,
+								"title": null
+							},
+							"terminus_view.cancellable": false,
+							"terminus_view.key.ctrl+k": true,
+							"terminus_view.key.ctrl+p": true,
+							"terminus_view.natural_keyboard": true,
+							"terminus_view.panel_name": null,
+							"terminus_view.tag": null,
+							"terminus_view.viewport_y": 42.0,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 42.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
 		}
 	],
 	"incremental_find":
@@ -272,11 +372,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -336,7 +443,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

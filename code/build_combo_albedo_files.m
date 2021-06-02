@@ -29,7 +29,7 @@ for g=1:9
         data(d,2) = month(albedo.CAA.date(d));
         data(d,3) = day(albedo.CAA.date(d));
         
-        % Before 2008
+        % Before 2007
         %if(albedo.CAA.date(d)<733590)
         % Before 01-July-2007 or 2007-08 summer
         if(albedo.CAA.date(d)<733224)
