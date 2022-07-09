@@ -47,14 +47,14 @@ for i = 1: length (gls)
     temp = albedo.locid == gls(i) & albedo.type == 'gl';
     scatter(xData(temp), yData(temp), sz, c(temp), mrkGls{i});
 end
-for i = 1: length (lks)
-    temp = albedo.locid == lks(i) & albedo.type =='lk';
-    scatter(xData(temp), yData(temp), sz, c(temp), mrkLks{i});
-end
-for i = 1: length (sls)
-    temp = albedo.locid == sls(i) & albedo.type == 'sl';
-    scatter(xData(temp), yData(temp), sz, c(temp), mrkSls{i});
-end
+% for i = 1: length (lks)
+%     temp = albedo.locid == lks(i) & albedo.type =='lk';
+%     scatter(xData(temp), yData(temp), sz, c(temp), mrkLks{i});
+% end
+% for i = 1: length (sls)
+%     temp = albedo.locid == sls(i) & albedo.type == 'sl';
+%     scatter(xData(temp), yData(temp), sz, c(temp), mrkSls{i});
+% end
 
 %scatter(xData, yData, sz, c, 'filled');
 line([0 1], [0 1],'Color','k','LineStyle','--','LineWidth', 1.5)
